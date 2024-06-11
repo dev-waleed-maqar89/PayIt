@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(80, 80, 255, .5);
+}
+
+.main-navbar {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    background-color: rgba(80, 80, 200, .6);
+    height: 40px;
+}
+
+.navbar-link {
+    all: unset;
+    cursor: pointer;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+}
+
+.single-product-image {
+    max-width: 250px;
+    max-height: 250px;
+}
